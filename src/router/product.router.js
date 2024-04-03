@@ -70,11 +70,25 @@ router.put("/:pid", (req, res) => {
     } 
     
     try {
-        let productId = productManager.getProductById(id);
-        let updatedProduct = productManager.updateProduct(productId, updatedFields);
+        let updatedProduct = productManager.updateProduct( id , updatedFields);
 
-        res.json({ message: "Producto actualizado correctamente", product: updatedProduct });
+
+        res.json(({ message: "Producto actualizado correctamente", product: updatedProduct }))
     } catch (error) {
         return res.json({ error: error.message });
     }
 });
+
+router.delete("/:pid", (req, res)=>{
+    let id = req.params.pid
+    id = Number(id)
+    if (isNaN(id)){
+        return(res.json("El valor no es un numero"))
+    }
+    try{
+        let deteleFile = productManager.deleteProduct(id)
+        res.json({message:"Producto Eliminado"})
+    }catch{
+        return res.json({error:error.message})
+    }
+})

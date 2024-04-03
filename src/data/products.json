@@ -21,7 +21,7 @@
   },
   {
     "id": 3,
-    "title": "Gato Maceta",
+    "title": "hola    pepu",
     "description": "Maceta con de Gato",
     "price": 2000,
     "code": "b6cd",
@@ -98,43 +98,6 @@
     "stock": 2,
     "status": true,
     "date": "2/4/2024"
-  },
-  {
-    "id": 1,
-    "status": true,
-    "date": "2/4/2024"
-  },
-  {
-    "id": 1,
-    "title": "Nombre del producto",
-    "description": "Descripción del producto",
-    "price": 19.99,
-    "thumbnail": "https://ejemplo.com/imagen.jpg",
-    "code": "ABC123",
-    "stock": 100,
-    "status": true,
-    "date": "2/4/2024"
-  },
-  {
-    "id": "_Tue Apr 02 2024 23:32:29 GMT-0300 (hora estándar de Argentina)",
-    "title": "Nombre del producto",
-    "description": "Descripción del producto",
-    "price": 19.99,
-    "thumbnail": "https://ejemplo.com/imagen.jpg",
-    "code": "ABCd33",
-    "stock": 100,
-    "status": true,
-    "date": "2/4/2024"
-  },
-  {
-    "id": "_1712111648178",
-    "title": "Nombre del producto",
-    "description": "Descripción del producto",
-    "price": 19.99,
-    "thumbnail": "https://ejemplo.com/imagen.jpg",
-    "code": "ABC233",
-    "stock": 100,
-    "status": true,
-    "date": "2/4/2024"
   }
+
 ]
