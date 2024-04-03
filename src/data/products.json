@@ -1,0 +1,140 @@
+[
+  {
+    "id": 1,
+    "title": "Frida Maceta",
+    "description": "Maceta con forma de Frida Kalo de 20 cm de alto",
+    "price": 30000,
+    "code": "b4cd",
+    "stock": 2,
+    "status": true,
+    "date": "2/4/2024"
+  },
+  {
+    "id": 2,
+    "title": "Gato Mate",
+    "description": "Mate con forma de gato",
+    "price": 25000,
+    "code": "b5cd",
+    "stock": 8,
+    "status": true,
+    "date": "2/4/2024"
+  },
+  {
+    "id": 3,
+    "title": "Gato Maceta",
+    "description": "Maceta con de Gato",
+    "price": 2000,
+    "code": "b6cd",
+    "stock": 12,
+    "status": true,
+    "date": "2/4/2024"
+  },
+  {
+    "id": 4,
+    "title": "Gordita Voladoras",
+    "description": "Maceta colgante",
+    "price": 15000,
+    "code": "b7cd",
+    "stock": 4,
+    "status": true,
+    "date": "2/4/2024"
+  },
+  {
+    "id": 5,
+    "title": "Tetera",
+    "description": "Tetera de 500 ml",
+    "price": 15000,
+    "code": "b8cd",
+    "stock": 1,
+    "status": true,
+    "date": "2/4/2024"
+  },
+  {
+    "id": 6,
+    "title": "Gato Iman",
+    "description": "iman con forma de cara de gato",
+    "price": 2000,
+    "code": "b9cd",
+    "stock": 15,
+    "status": true,
+    "date": "2/4/2024"
+  },
+  {
+    "id": 7,
+    "title": "Gato cascavel",
+    "description": "Cascavel con forma de gato",
+    "price": 5000,
+    "code": "b0cd",
+    "stock": 8,
+    "status": true,
+    "date": "2/4/2024"
+  },
+  {
+    "id": 8,
+    "title": "Gato Chupetin",
+    "description": "Tutor de gato",
+    "price": 4500,
+    "code": "b1cd",
+    "stock": 10,
+    "status": true,
+    "date": "2/4/2024"
+  },
+  {
+    "id": 9,
+    "title": "Pajarito Tutor",
+    "description": "Tutor con forma de pajaro",
+    "price": 2000,
+    "code": "b2cd",
+    "stock": 20,
+    "status": true,
+    "date": "2/4/2024"
+  },
+  {
+    "id": 10,
+    "title": "Gato Recostado",
+    "description": "Maceta con forma gato recostado",
+    "price": 25000,
+    "code": "b3cd",
+    "stock": 2,
+    "status": true,
+    "date": "2/4/2024"
+  },
+  {
+    "id": 1,
+    "status": true,
+    "date": "2/4/2024"
+  },
+  {
+    "id": 1,
+    "title": "Nombre del producto",
+    "description": "Descripción del producto",
+    "price": 19.99,
+    "thumbnail": "https://ejemplo.com/imagen.jpg",
+    "code": "ABC123",
+    "stock": 100,
+    "status": true,
+    "date": "2/4/2024"
+  },
+  {
+    "id": "_Tue Apr 02 2024 23:32:29 GMT-0300 (hora estándar de Argentina)",
+    "title": "Nombre del producto",
+    "description": "Descripción del producto",
+    "price": 19.99,
+    "thumbnail": "https://ejemplo.com/imagen.jpg",
+    "code": "ABCd33",
+    "stock": 100,
+    "status": true,
+    "date": "2/4/2024"
+  },
+  {
+    "id": "_1712111648178",
+    "title": "Nombre del producto",
+    "description": "Descripción del producto",
+    "price": 19.99,
+    "thumbnail": "https://ejemplo.com/imagen.jpg",
+    "code": "ABC233",
+    "stock": 100,
+    "status": true,
+    "date": "2/4/2024"
+  }
+]
