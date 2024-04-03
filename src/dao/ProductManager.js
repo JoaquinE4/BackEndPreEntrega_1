@@ -1,6 +1,4 @@
 import fs from "fs";
-import path from "path";
-import __dirname from "../utils.js";
 
 export default class ProductManager {
     products;
@@ -20,19 +18,19 @@ export default class ProductManager {
             throw new Error("El código del producto ya existe");
         }
 
-        
+
         const id = "_" + Date.now();
 
         const newProduct = {
-            id ,
-            
+            id,
+
             title,
             description,
             price,
             thumbnail,
             code,
             stock,
-            status:true,
+            status: true,
             date: new Date().toLocaleDateString()
         }
 
@@ -53,15 +51,15 @@ export default class ProductManager {
         return product;
     }
 
-        updateProduct(id, updatedFields) {
-            const index = this.products.findIndex(product => product.id === id);
-            if (index === -1) {
-                throw new Error("Producto no encontrado");
-            }
-            this.products[index] = { ...this.products[index], ...updatedFields };
-            this.saveProductsToFile(this.products);
-            return this.products[index];
+    updateProduct(id, updatedFields) {
+        const index = this.products.findIndex(product => product.id === id);
+        if (index === -1) {
+            throw new Error("Producto no encontrado");
         }
+        this.products[index] = { ...this.products[index], ...updatedFields };
+        this.saveProductsToFile(this.products);
+        return this.products[index];
+    }
 
     deleteProduct(id) {
         this.products = this.products.filter(product => product.id !== id);
@@ -87,4 +85,3 @@ export default class ProductManager {
     }
 }
 
- 

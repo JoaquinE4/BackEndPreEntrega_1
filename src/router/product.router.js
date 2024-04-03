@@ -2,14 +2,14 @@ import { Router } from 'express';
 import path from "path";
 import __dirname from '../utils.js';
 import ProductManager from '../dao/ProductManager.js';
-import ProductJson from "../data/products.json" assert { type: 'json' };
+import ProductJson from "../data/productos.json" assert { type: 'json' };
 
 
 
 export const router=Router()
 
 const productJson = ProductJson
-const productManager = new ProductManager(path.join(__dirname,  "data", "products.json"))
+const productManager = new ProductManager(path.join(__dirname,  "data", "productos.json"))
 
 router.get("/", (req, res)=>{
     let productos = productManager.getProducts()
